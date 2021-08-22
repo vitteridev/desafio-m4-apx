@@ -43,7 +43,12 @@
 .nav__menu-item {
   text-decoration: none;
   font-size: 2.4rem;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   color: #fff;
+}
+.nav__item:hover {
+  transform: scale(1.08, 1.08);
+  color: #ff75f3;
 }
 .nav__menu {
   display: none;
@@ -52,7 +57,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: darkseagreen;
+  background-color: rgba(117, 19, 93);
   overflow: auto;
 }
 .nav__icon {
@@ -64,7 +69,7 @@
   color: #fff;
 }
 .nav__menu-content {
-  height: 80%;
+  height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

@@ -1,0 +1,66 @@
+.contacto {
+  background-color: #000;
+  color: #fff;
+  padding: 65px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .contacto {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.contacto__title,
+.contacto__label,
+.contacto__input,
+.contacto__submit-btn {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+.contacto__title {
+  font-size: 3.2rem;
+  margin: 0 0 35px;
+}
+@media (min-width: 900px) {
+  .contacto__title {
+    font-size: 4.8rem;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
+    margin-right: 70px;
+  }
+}
+.contacto__label {
+  margin: 0;
+}
+.contacto__form {
+  width: 100%;
+  max-width: 375px;
+}
+.contacto__input {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 27px;
+  border: 3px solid #2c2c2c;
+  border-radius: 4px;
+}
+.contacto__input-msj {
+  height: 113px;
+  margin-bottom: 60px;
+}
+.contacto__submit-btn {
+  background-color: #2c2c2c;
+  font-size: 1.6rem;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 11px 0;
+  margin-bottom: 60px;
+}
+@media (min-width: 900px) {
+  .contacto__submit-btn:hover {
+    cursor: pointer;
+  }
+}
