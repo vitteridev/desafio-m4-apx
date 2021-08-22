@@ -3,7 +3,7 @@
 }
 body {
   margin: 0;
-  background-color: #000;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 html {
   font-size: 10px;
@@ -36,4 +36,66 @@ html {
 }
 .header__subtitle {
   font-size: 3.2rem;
+}
+.about-me {
+  background-color: #000;
+}
+@media (min-width: 769px) {
+  .about-me {
+    background-color: #fff;
+  }
+}
+.about-me__container {
+  padding: 55px 32px;
+}
+@media (min-width: 769px) {
+  .about-me__container {
+    padding: inherit;
+    margin-top: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.about-me__img {
+  display: none;
+}
+@media (min-width: 769px) {
+  .about-me__img {
+    display: inherit;
+    width: 380px;
+    height: 480px;
+  }
+}
+.about-me__info-container {
+}
+@media (min-width: 769px) {
+  .about-me__info-container {
+    max-width: 610px;
+  }
+}
+.about-me__title,
+.about-me__info {
+  color: #fff;
+  margin: 0;
+}
+@media (min-width: 769px) {
+  .about-me__title,
+  .about-me__info {
+    color: #000;
+  }
+}
+.about-me__title {
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 46px;
+}
+@media (min-width: 769px) {
+  .about-me__title {
+    text-align: left;
+  }
+}
+.about-me__info {
+  font-size: 1.6rem;
+  margin-bottom: 60px;
 }
