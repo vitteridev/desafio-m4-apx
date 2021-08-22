@@ -54,7 +54,7 @@ function findInIncludes(assetId, includes) {
 }
 
 function getServicesInfo() {
-  fetch(
+  return fetch(
     "https://cdn.contentful.com/spaces/phnizhvstb09/environments/master/entries?access_token=ltGCEIoBJUsndZf8YOYbC4nSDhqbrkCiAJVZmkAbhtw&content_type=services"
   )
     .then((res) => {
@@ -91,6 +91,8 @@ function getServicesInfo() {
   });
 
   getServicesInfo().then((item) => {
-    showServicesInfo(item);
+    for (const i of item) {
+      showServicesInfo(i);
+    }
   });
 })();
