@@ -72,6 +72,7 @@ html {
 @media (min-width: 769px) {
   .about-me__info-container {
     max-width: 610px;
+    align-self: flex-start;
   }
 }
 .about-me__title,
@@ -98,4 +99,47 @@ html {
 .about-me__info {
   font-size: 1.6rem;
   margin-bottom: 60px;
+}
+.services {
+  padding: 65px 55px;
+  background-color: #fafafa;
+}
+.services__title {
+  font-size: 3.2rem;
+  margin: 0;
+  text-align: center;
+}
+.services__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 769px) {
+  .services__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.services__item {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+.services__img {
+  width: 148px;
+  height: 138px;
+  border: solid 3px;
+  border-image: linear-gradient(to bottom, rgba(78, 96, 199, 0.52), #75135d) 10%;
+  margin-bottom: 18px;
+}
+.services__item-title {
+  font-size: 2.4rem;
+  margin: 0 0 7px;
+}
+.services__item-paragraph {
+  font-size: 1.6rem;
+  margin: 0;
+  text-align: center;
 }
