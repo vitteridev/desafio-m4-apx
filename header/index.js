@@ -31,14 +31,14 @@ function header(el) {
         <div class="nav__menu-content">
         <a class="nav__menu-item" href="../portfolio.html">Portfolio</a>
         <a class="nav__menu-item" href="../servicios.html">Servicios</a>
-        <a class="nav__menu-item" href="#">Contacto</a>
+        <a class="nav__menu-item" href="../formulario.html">Contacto</a>
         </div>
         </div>
         </div>
         <div class="nav__items-container">
         <a class="nav__item" href="../portfolio.html">Portfolio</a>
         <a class="nav__item" href="../servicios.html">Servicios</a>
-        <a class="nav__item" href="#">Contacto</a>
+        <a class="nav__item" href="../formulario.html">Contacto</a>
         </div>
   </div>
   `;
