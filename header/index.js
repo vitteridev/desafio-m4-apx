@@ -15,7 +15,7 @@ function header(el) {
   const componentEl = document.createElement("nav");
   componentEl.innerHTML = `
   <div class="nav">
-    <a href="./index.html">
+    <a href="index.html">
       <img src="./assets/donut.svg" alt="donut logo" class="nav__logo" />
     </a>
     <div class="nav__icon-menu">
@@ -29,16 +29,16 @@ function header(el) {
           <span class="nav__icon-close">x</span>
         </div>
         <div class="nav__menu-content">
-        <a class="nav__menu-item" href="../portfolio.html">Portfolio</a>
-        <a class="nav__menu-item" href="../servicios.html">Servicios</a>
-        <a class="nav__menu-item" href="../formulario.html">Contacto</a>
+        <a class="nav__menu-item" href="portfolio.html">Portfolio</a>
+        <a class="nav__menu-item" href="servicios.html">Servicios</a>
+        <a class="nav__menu-item" href="formulario.html">Contacto</a>
         </div>
         </div>
         </div>
         <div class="nav__items-container">
-        <a class="nav__item" href="../portfolio.html">Portfolio</a>
-        <a class="nav__item" href="../servicios.html">Servicios</a>
-        <a class="nav__item" href="../formulario.html">Contacto</a>
+        <a class="nav__item" href="portfolio.html">Portfolio</a>
+        <a class="nav__item" href="servicios.html">Servicios</a>
+        <a class="nav__item" href="formulario.html">Contacto</a>
         </div>
   </div>
   `;
