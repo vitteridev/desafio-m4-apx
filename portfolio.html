@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./header/index.css" />
+    <link rel="stylesheet" href="./footer/index.css" />
+    <link rel="stylesheet" href="./portfolio/index.css" />
+    <script defer src="./header/index.js"></script>
+    <script defer src="./footer/index.js"></script>
+    <script defer src="./portfolio/index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-index"></div>
+      <div class="header__container">
+        <h1 class="header__title">Portfolio</h1>
+      </div>
+    </header>
+    <section class="portfolio">
+      <div class="portfolio__results"></div>
+    </section>
+    <template id="portfolio__template">
+      <div class="portfolio__item">
+        <img class="portfolio__img" src="" alt="repo image" />
+        <h2 class="portfolio__item-title"></h2>
+        <p class="portfolio__item-paragraph"></p>
+        <a href="" target="_blank" class="portfolio__item-link">VER</a>
+      </div>
+    </template>
+    <footer class="footer-index"></footer>
+  </body>
+</html>

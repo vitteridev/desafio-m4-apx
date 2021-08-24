@@ -29,15 +29,15 @@ function header(el) {
           <span class="nav__icon-close">x</span>
         </div>
         <div class="nav__menu-content">
-        <a class="nav__menu-item" href="#">Portfolio</a>
-        <a class="nav__menu-item" href="#">Servicios</a>
+        <a class="nav__menu-item" href="../portfolio.html">Portfolio</a>
+        <a class="nav__menu-item" href="../servicios.html">Servicios</a>
         <a class="nav__menu-item" href="#">Contacto</a>
         </div>
         </div>
         </div>
         <div class="nav__items-container">
-        <a class="nav__item" href="#">Portfolio</a>
-        <a class="nav__item" href="#">Servicios</a>
+        <a class="nav__item" href="../portfolio.html">Portfolio</a>
+        <a class="nav__item" href="../servicios.html">Servicios</a>
         <a class="nav__item" href="#">Contacto</a>
         </div>
   </div>

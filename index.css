@@ -109,13 +109,13 @@ html {
   margin: 0;
   text-align: center;
 }
-.services__container {
+.services__results {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 @media (min-width: 769px) {
-  .services__container {
+  .services__results {
     flex-direction: row;
     justify-content: space-between;
   }
